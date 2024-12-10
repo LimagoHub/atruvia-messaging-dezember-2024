@@ -1,4 +1,4 @@
-package de.atruvia.smartbank24kreditrantragregistrierung.feature.adapter.event;
+package de.gothaer.smartbank24kreditantragstore.myfeature.adapter.event;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,6 +8,7 @@ import lombok.experimental.SuperBuilder;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
+
 
 @Data
 @AllArgsConstructor

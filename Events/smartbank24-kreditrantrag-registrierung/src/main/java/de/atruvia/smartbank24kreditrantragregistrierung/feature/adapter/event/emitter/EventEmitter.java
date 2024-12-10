@@ -1,8 +1,9 @@
-package de.atruvia.smartbank24kreditrantragregistrierung.adapter.event.emitter;
+package de.atruvia.smartbank24kreditrantragregistrierung.feature.adapter.event.emitter;
 
 
-import de.atruvia.smartbank24kreditrantragregistrierung.adapter.mapper.KreditantragDTOMapper;
-import de.atruvia.smartbank24kreditrantragregistrierung.domain.model.Kreditantrag;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.adapter.event.KreditantragRegistriertEvent;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.adapter.mapper.KreditantragDTOMapper;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.model.Kreditantrag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cloud.stream.function.StreamBridge;
 import org.springframework.context.event.EventListener;
@@ -18,6 +19,7 @@ public class EventEmitter {
 
     @EventListener
     public void handle(Kreditantrag antrag){
-        bridge.send(SUPPLIER_BINDIN_NAME,mapper.convert(antrag));
+        var dto = mapper.convert(antrag);
+        bridge.send(SUPPLIER_BINDIN_NAME, KreditantragRegistriertEvent.builder().kreditantrag(dto).build());
     }
 }

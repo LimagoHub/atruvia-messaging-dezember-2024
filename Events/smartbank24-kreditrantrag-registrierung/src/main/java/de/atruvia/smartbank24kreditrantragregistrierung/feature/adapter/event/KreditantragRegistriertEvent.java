@@ -1,7 +1,7 @@
-package de.atruvia.smartbank24kreditrantragregistrierung.adapter.event;
+package de.atruvia.smartbank24kreditrantragregistrierung.feature.adapter.event;
 
 
-import de.atruvia.smartbank24kreditrantragregistrierung.adapter.dto.KreditantragDTO;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.adapter.dto.KreditantragDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

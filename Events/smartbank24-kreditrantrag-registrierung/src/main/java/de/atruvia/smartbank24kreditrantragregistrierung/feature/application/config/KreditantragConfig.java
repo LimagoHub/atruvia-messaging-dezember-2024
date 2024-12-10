@@ -1,9 +1,9 @@
-package de.atruvia.smartbank24kreditrantragregistrierung.application.config;
+package de.atruvia.smartbank24kreditrantragregistrierung.feature.application.config;
 
 
-import de.atruvia.smartbank24kreditrantragregistrierung.domain.KreditantragRepository;
-import de.atruvia.smartbank24kreditrantragregistrierung.domain.services.KreditantragService;
-import de.atruvia.smartbank24kreditrantragregistrierung.domain.services.internal.KreditantragServiceImpl;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.KreditantragRepository;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.services.KreditantragService;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.services.internal.KreditantragServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

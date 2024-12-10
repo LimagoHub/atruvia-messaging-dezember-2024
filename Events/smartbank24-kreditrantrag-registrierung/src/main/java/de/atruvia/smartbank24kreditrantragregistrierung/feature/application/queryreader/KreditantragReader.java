@@ -1,8 +1,8 @@
-package de.atruvia.smartbank24kreditrantragregistrierung.application.queryreader;
+package de.atruvia.smartbank24kreditrantragregistrierung.feature.application.queryreader;
 
 
-import de.atruvia.smartbank24kreditrantragregistrierung.domain.model.Kreditantrag;
-import de.atruvia.smartbank24kreditrantragregistrierung.domain.services.KreditantragServiceException;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.model.Kreditantrag;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.services.KreditantragServiceException;
 
 import java.util.Optional;
 

@@ -1,15 +1,11 @@
-package de.atruvia.smartbank24kreditrantragregistrierung.feature.adapter.repositories.entities;
+package de.gothaer.smartbank24kreditantragstore.myfeature.adapter.repositories.entities;
 
 import lombok.*;
 import org.hibernate.Hibernate;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.Objects;
-
 
 @Getter
 @Setter
@@ -47,6 +43,19 @@ public class KreditantragEntity {
     private double monthlyExpenditure;
 
     private double creditSum;
+
+    @Column(length = 30)
+    private String scoringState;
+
+    @Column(length = 30)
+    private String cityScoringState;
+
+    @Column(length = 30)
+    private String applicationState;
+
+    @Version
+    private LocalDateTime version;
+    //private long version;
 
     @Override
     public boolean equals(Object o) {

@@ -1,7 +1,7 @@
-package de.atruvia.smartbank24kreditrantragregistrierung.domain.services;
+package de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.services;
 
 
-import de.atruvia.smartbank24kreditrantragregistrierung.domain.model.Kreditantrag;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.model.Kreditantrag;
 
 import java.util.Optional;
 

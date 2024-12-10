@@ -1,7 +1,7 @@
-package de.atruvia.smartbank24kreditrantragregistrierung.adapter.errorhandling;
+package de.atruvia.smartbank24kreditrantragregistrierung.feature.adapter.errorhandling;
 
 
-import de.atruvia.smartbank24kreditrantragregistrierung.domain.services.KreditantragServiceException;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.services.KreditantragServiceException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

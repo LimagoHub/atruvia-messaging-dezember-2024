@@ -1,11 +1,11 @@
-package de.atruvia.smartbank24kreditrantragregistrierung.feature.domain;
+package de.gothaer.smartbank24kreditantragstore.myfeature.domain.service;
 
-
-import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.model.Kreditantrag;
+import de.gothaer.smartbank24kreditantragstore.myfeature.domain.aggregate.Kreditantrag;
 
 import java.util.Optional;
 
 public interface KreditantragRepository {
+
     void anlegen(Kreditantrag antrag);
 
     boolean existenzPruefen(Kreditantrag k);

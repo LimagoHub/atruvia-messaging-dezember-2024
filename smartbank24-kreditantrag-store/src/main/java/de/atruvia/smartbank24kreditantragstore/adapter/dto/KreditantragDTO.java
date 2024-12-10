@@ -1,4 +1,4 @@
-package de.atruvia.smartbank24kreditrantragregistrierung.feature.adapter.dto;
+package de.gothaer.smartbank24kreditantragstore.myfeature.adapter.dto;
 
 
 import lombok.AllArgsConstructor;
@@ -9,11 +9,13 @@ import lombok.NoArgsConstructor;
 import javax.validation.constraints.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+
 
 
 public class KreditantragDTO implements Serializable {
@@ -22,9 +24,10 @@ public class KreditantragDTO implements Serializable {
 
 
 
+    @Builder.Default
     @Size(min = 36, max = 36)
     @NotNull
-    private String creditApplicationId ;
+    private String creditApplicationId = UUID.randomUUID().toString();
 
     @NotNull
     @Size(min = 2, max = 51, message = "bitte min. 2 Zeichen eingeben")
@@ -52,5 +55,6 @@ public class KreditantragDTO implements Serializable {
     @DecimalMin(inclusive = false , message = "darf nicht negativ oder leer (0) sein", value = "0")
     private double creditSum;
 
+    private LocalDateTime version;
 
 }

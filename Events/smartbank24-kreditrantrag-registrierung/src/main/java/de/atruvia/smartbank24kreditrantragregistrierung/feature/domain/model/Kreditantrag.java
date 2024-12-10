@@ -1,4 +1,4 @@
-package de.atruvia.smartbank24kreditrantragregistrierung.domain.model;
+package de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.model;
 
 import lombok.*;
 

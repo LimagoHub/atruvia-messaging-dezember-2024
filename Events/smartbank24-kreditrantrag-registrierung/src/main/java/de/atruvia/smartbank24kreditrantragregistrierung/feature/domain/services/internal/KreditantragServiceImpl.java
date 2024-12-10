@@ -1,10 +1,10 @@
-package de.atruvia.smartbank24kreditrantragregistrierung.domain.services.internal;
+package de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.services.internal;
 
 
-import de.atruvia.smartbank24kreditrantragregistrierung.domain.KreditantragRepository;
-import de.atruvia.smartbank24kreditrantragregistrierung.domain.model.Kreditantrag;
-import de.atruvia.smartbank24kreditrantragregistrierung.domain.services.KreditantragService;
-import de.atruvia.smartbank24kreditrantragregistrierung.domain.services.KreditantragServiceException;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.KreditantragRepository;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.model.Kreditantrag;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.services.KreditantragService;
+import de.atruvia.smartbank24kreditrantragregistrierung.feature.domain.services.KreditantragServiceException;
 import lombok.AllArgsConstructor;
 
 import java.util.Optional;
