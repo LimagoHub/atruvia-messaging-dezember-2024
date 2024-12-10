@@ -1,10 +1,10 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.adapter.repositories.impl;
+package de.atruvia.smartbank24kreditantragstore.adapter.repositories.impl;
 
 
-import de.gothaer.smartbank24kreditantragstore.myfeature.adapter.mapper.KreditantragMapper;
-import de.gothaer.smartbank24kreditantragstore.myfeature.adapter.repositories.KreditantragPersistence;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.aggregate.Kreditantrag;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.service.KreditantragRepository;
+import de.atruvia.smartbank24kreditantragstore.adapter.mapper.KreditantragMapper;
+import de.atruvia.smartbank24kreditantragstore.adapter.repositories.KreditantragPersistence;
+import de.atruvia.smartbank24kreditantragstore.domain.aggregate.Kreditantrag;
+import de.atruvia.smartbank24kreditantragstore.domain.service.KreditantragRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Repository;
 

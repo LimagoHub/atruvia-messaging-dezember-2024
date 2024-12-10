@@ -1,4 +1,4 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.adapter.dto;
+package de.atruvia.smartbank24kreditantragstore.adapter.dto;
 
 
 import lombok.AllArgsConstructor;

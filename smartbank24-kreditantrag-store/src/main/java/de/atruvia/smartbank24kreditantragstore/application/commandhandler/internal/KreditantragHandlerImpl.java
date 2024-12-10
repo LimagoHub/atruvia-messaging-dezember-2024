@@ -1,16 +1,18 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.application.commandhandler.internal;
+package de.atruvia.smartbank24kreditantragstore.application.commandhandler.internal;
 
 
-import de.gothaer.smartbank24kreditantragstore.myfeature.application.commandhandler.KreditantragHandler;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.aggregate.Kreditantrag;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.service.KreditantragService;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.service.KreditantragServiceException;
+import de.atruvia.smartbank24kreditantragstore.application.commandhandler.KreditantragHandler;
+import de.atruvia.smartbank24kreditantragstore.domain.aggregate.Kreditantrag;
+import de.atruvia.smartbank24kreditantragstore.domain.service.KreditantragService;
+import de.atruvia.smartbank24kreditantragstore.domain.service.KreditantragServiceException;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+
+import javax.annotation.PostConstruct;
+import javax.inject.Named;
 
 @Service
 @Transactional(rollbackFor = KreditantragServiceException.class, propagation = Propagation.REQUIRED)

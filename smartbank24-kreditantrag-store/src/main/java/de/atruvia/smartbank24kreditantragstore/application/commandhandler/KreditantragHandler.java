@@ -1,7 +1,7 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.application.commandhandler;
+package de.atruvia.smartbank24kreditantragstore.application.commandhandler;
 
 
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.aggregate.Kreditantrag;
+import de.atruvia.smartbank24kreditantragstore.domain.aggregate.Kreditantrag;
 
 public interface KreditantragHandler {
     void handleKreditantragRegistriert(Kreditantrag kreditantrag);

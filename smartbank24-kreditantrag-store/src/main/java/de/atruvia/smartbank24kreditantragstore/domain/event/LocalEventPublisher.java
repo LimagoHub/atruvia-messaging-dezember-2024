@@ -1,4 +1,4 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.domain.event;
+package de.atruvia.smartbank24kreditantragstore.domain.event;
 
 public interface LocalEventPublisher {
 

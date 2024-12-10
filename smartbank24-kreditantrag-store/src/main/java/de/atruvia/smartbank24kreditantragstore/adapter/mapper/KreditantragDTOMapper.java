@@ -1,8 +1,8 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.adapter.mapper;
+package de.atruvia.smartbank24kreditantragstore.adapter.mapper;
 
 
-import de.gothaer.smartbank24kreditantragstore.myfeature.adapter.dto.KreditantragDTO;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.aggregate.Kreditantrag;
+import de.atruvia.smartbank24kreditantragstore.adapter.dto.KreditantragDTO;
+import de.atruvia.smartbank24kreditantragstore.domain.aggregate.Kreditantrag;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

@@ -1,11 +1,11 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.adapter.mapper;
+package de.atruvia.smartbank24kreditantragstore.adapter.mapper;
 
-import de.gothaer.smartbank24kreditantragstore.myfeature.adapter.event.KreditantragEvent;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.event.KreditAntragAcceptedLocalEvent;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.event.KreditantragDeniedLocalEvent;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.event.KreditantragPersistiertLocalEvent;
+
+import de.atruvia.smartbank24kreditantragstore.adapter.event.KreditantragEvent;
+import de.atruvia.smartbank24kreditantragstore.domain.event.KreditAntragAcceptedLocalEvent;
+import de.atruvia.smartbank24kreditantragstore.domain.event.KreditantragDeniedLocalEvent;
+import de.atruvia.smartbank24kreditantragstore.domain.event.KreditantragPersistiertLocalEvent;
 import org.mapstruct.Mapper;
-
 
 @Mapper(componentModel = "spring")
 public interface KreditantragLocalEventToDomainEventMapper {

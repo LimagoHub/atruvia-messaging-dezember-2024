@@ -1,4 +1,4 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.adapter.event;
+package de.atruvia.smartbank24kreditantragstore.adapter.event;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

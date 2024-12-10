@@ -1,7 +1,7 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.adapter.event;
+package de.atruvia.smartbank24kreditantragstore.adapter.event;
 
 
-import de.gothaer.smartbank24kreditantragstore.myfeature.adapter.dto.KreditantragDTO;
+import de.atruvia.smartbank24kreditantragstore.adapter.dto.KreditantragDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

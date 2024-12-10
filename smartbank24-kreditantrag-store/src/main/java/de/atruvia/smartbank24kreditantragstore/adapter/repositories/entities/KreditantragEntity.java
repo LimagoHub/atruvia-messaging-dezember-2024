@@ -1,4 +1,4 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.adapter.repositories.entities;
+package de.atruvia.smartbank24kreditantragstore.adapter.repositories.entities;
 
 import lombok.*;
 import org.hibernate.Hibernate;

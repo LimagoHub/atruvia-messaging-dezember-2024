@@ -1,10 +1,10 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.application.config;
+package de.atruvia.smartbank24kreditantragstore.application.config;
 
 
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.event.LocalEventPublisher;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.service.KreditantragRepository;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.service.KreditantragService;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.service.internal.KreditantragServiceImpl;
+import de.atruvia.smartbank24kreditantragstore.domain.event.LocalEventPublisher;
+import de.atruvia.smartbank24kreditantragstore.domain.service.KreditantragRepository;
+import de.atruvia.smartbank24kreditantragstore.domain.service.KreditantragService;
+import de.atruvia.smartbank24kreditantragstore.domain.service.internal.KreditantragServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

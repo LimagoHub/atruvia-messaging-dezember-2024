@@ -1,14 +1,15 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.domain.service.internal;
+package de.atruvia.smartbank24kreditantragstore.domain.service.internal;
 
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.aggregate.Kreditantrag;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.aggregate.Statuswechsel;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.event.KreditAntragAcceptedLocalEvent;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.event.KreditantragDeniedLocalEvent;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.event.KreditantragPersistiertLocalEvent;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.event.LocalEventPublisher;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.service.KreditantragRepository;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.service.KreditantragService;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.service.KreditantragServiceException;
+
+import de.atruvia.smartbank24kreditantragstore.domain.aggregate.Kreditantrag;
+import de.atruvia.smartbank24kreditantragstore.domain.aggregate.Statuswechsel;
+import de.atruvia.smartbank24kreditantragstore.domain.event.KreditAntragAcceptedLocalEvent;
+import de.atruvia.smartbank24kreditantragstore.domain.event.KreditantragDeniedLocalEvent;
+import de.atruvia.smartbank24kreditantragstore.domain.event.KreditantragPersistiertLocalEvent;
+import de.atruvia.smartbank24kreditantragstore.domain.event.LocalEventPublisher;
+import de.atruvia.smartbank24kreditantragstore.domain.service.KreditantragRepository;
+import de.atruvia.smartbank24kreditantragstore.domain.service.KreditantragService;
+import de.atruvia.smartbank24kreditantragstore.domain.service.KreditantragServiceException;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

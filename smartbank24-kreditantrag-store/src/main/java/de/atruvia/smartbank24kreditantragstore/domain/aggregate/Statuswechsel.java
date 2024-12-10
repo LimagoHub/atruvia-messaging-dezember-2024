@@ -1,4 +1,4 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.domain.aggregate;
+package de.atruvia.smartbank24kreditantragstore.domain.aggregate;
 
 public enum Statuswechsel {
 

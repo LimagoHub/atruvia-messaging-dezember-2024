@@ -1,10 +1,10 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.adapter.event.listener;
+package de.atruvia.smartbank24kreditantragstore.adapter.event.listener;
 
 
-import de.gothaer.smartbank24kreditantragstore.myfeature.adapter.event.KreditantragEvent;
-import de.gothaer.smartbank24kreditantragstore.myfeature.adapter.event.ScoringEvent;
-import de.gothaer.smartbank24kreditantragstore.myfeature.adapter.mapper.KreditantragDTOMapper;
-import de.gothaer.smartbank24kreditantragstore.myfeature.application.commandhandler.KreditantragHandler;
+import de.atruvia.smartbank24kreditantragstore.adapter.event.KreditantragEvent;
+import de.atruvia.smartbank24kreditantragstore.adapter.event.ScoringEvent;
+import de.atruvia.smartbank24kreditantragstore.adapter.mapper.KreditantragDTOMapper;
+import de.atruvia.smartbank24kreditantragstore.application.commandhandler.KreditantragHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,6 +1,7 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.domain.event;
+package de.atruvia.smartbank24kreditantragstore.domain.event;
 
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.aggregate.Kreditantrag;
+
+import de.atruvia.smartbank24kreditantragstore.domain.aggregate.Kreditantrag;
 import lombok.*;
 
 @Getter

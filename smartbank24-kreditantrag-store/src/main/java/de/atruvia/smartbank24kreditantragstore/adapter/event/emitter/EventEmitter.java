@@ -1,10 +1,10 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.adapter.event.emitter;
+package de.atruvia.smartbank24kreditantragstore.adapter.event.emitter;
 
 
-import de.gothaer.smartbank24kreditantragstore.myfeature.adapter.mapper.KreditantragLocalEventToDomainEventMapper;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.event.KreditAntragAcceptedLocalEvent;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.event.KreditantragDeniedLocalEvent;
-import de.gothaer.smartbank24kreditantragstore.myfeature.domain.event.KreditantragPersistiertLocalEvent;
+import de.atruvia.smartbank24kreditantragstore.adapter.mapper.KreditantragLocalEventToDomainEventMapper;
+import de.atruvia.smartbank24kreditantragstore.domain.event.KreditAntragAcceptedLocalEvent;
+import de.atruvia.smartbank24kreditantragstore.domain.event.KreditantragDeniedLocalEvent;
+import de.atruvia.smartbank24kreditantragstore.domain.event.KreditantragPersistiertLocalEvent;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cloud.stream.function.StreamBridge;
 import org.springframework.context.event.EventListener;

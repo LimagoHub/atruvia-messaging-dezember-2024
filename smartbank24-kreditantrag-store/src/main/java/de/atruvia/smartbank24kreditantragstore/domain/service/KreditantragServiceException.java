@@ -1,4 +1,4 @@
-package de.gothaer.smartbank24kreditantragstore.myfeature.domain.service;
+package de.atruvia.smartbank24kreditantragstore.domain.service;
 
 public class KreditantragServiceException extends Exception {
 
