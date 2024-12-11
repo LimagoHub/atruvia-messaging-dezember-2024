@@ -53,8 +53,8 @@ public class KreditantragEntity {
     @Column(length = 30)
     private String applicationState;
 
-    @Version
-    private LocalDateTime version;
+    //@Version
+    //private LocalDateTime version;
     //private long version;
 
     @Override

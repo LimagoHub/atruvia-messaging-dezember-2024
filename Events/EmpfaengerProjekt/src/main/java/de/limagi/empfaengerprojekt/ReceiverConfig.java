@@ -12,6 +12,8 @@ public class ReceiverConfig {
 
     @Bean
     public Consumer<Event> receive() {
+
+        System.out.println("Ctor");
         return System.out::println;
     }
 //    public Function<Event, Event> myFunc() {
