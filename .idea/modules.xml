@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/atruvia-messaging-dezember-2024.iml" filepath="$PROJECT_DIR$/.idea/atruvia-messaging-dezember-2024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dead-letter-queue-example/dead-letter-queue-example.iml" filepath="$PROJECT_DIR$/dead-letter-queue-example/dead-letter-queue-example.iml" />
     </modules>
   </component>
 </project>

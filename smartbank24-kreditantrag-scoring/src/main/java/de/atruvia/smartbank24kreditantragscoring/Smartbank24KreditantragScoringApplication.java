@@ -1,4 +1,4 @@
-package de.atruvia.kreditantragscoring;
+package de.atruvia.smartbank24kreditantragscoring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

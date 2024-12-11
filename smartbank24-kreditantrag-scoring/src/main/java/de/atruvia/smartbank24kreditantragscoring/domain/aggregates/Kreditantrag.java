@@ -1,4 +1,4 @@
-package de.atruvia.kreditantragscoring.domain.aggregates;
+package de.atruvia.smartbank24kreditantragscoring.domain.aggregates;
 
 import lombok.*;
 
@@ -9,10 +9,13 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class Kreditantrag {
-
     private String creditApplicationId ;
+
+
     private double monthlyIncome;
+
     private double monthlyExpenditure;
+
     private double creditSum;
 
     public boolean isKreditwuerdig() {
