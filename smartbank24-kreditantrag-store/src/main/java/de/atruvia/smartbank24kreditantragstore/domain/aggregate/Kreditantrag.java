@@ -21,7 +21,7 @@ public class Kreditantrag {
     private double monthlyIncome;
     private double monthlyExpenditure;
     private double creditSum;
-    private LocalDateTime version;
+    private long version;
     @Builder.Default
     private String scoringState ="in progress";
 

@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>de.atruvia</groupId>
-    <artifactId>smartbank24-kreditantrag-scoring</artifactId>
+    <artifactId>smartbank24-kreditantrag-cityscoring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>smartbank24-kreditantrag-scoring</name>
-    <description>smartbank24-kreditantrag-scoring</description>
+    <name>smartbank24-kreditantrag-cityscoring</name>
+    <description>smartbank24-kreditantrag-cityscoring</description>
     <url/>
     <licenses>
         <license/>

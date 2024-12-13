@@ -1,4 +1,4 @@
-package de.atruvia.smartbank24kreditantragstore.adapter.dto;
+package de.atruvia.kreditantragcityscoring.adapter.dto;
 
 
 import lombok.AllArgsConstructor;
@@ -6,7 +6,11 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.*;
+import javax.validation.constraints.DecimalMin;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -17,11 +21,9 @@ import java.util.UUID;
 @Builder
 
 
-
 public class KreditantragDTO implements Serializable {
 
     private static final long serialVersionUID = 8144682724082102640L;
-
 
 
     @Builder.Default
@@ -34,7 +36,7 @@ public class KreditantragDTO implements Serializable {
     private String firstName;
 
     @NotNull
-    @Size(min = 2, max = 51,  message = "bitte min. 2 Zeichen eingeben")
+    @Size(min = 2, max = 51, message = "bitte min. 2 Zeichen eingeben")
     @NotBlank
     private String lastName;
 
@@ -46,13 +48,13 @@ public class KreditantragDTO implements Serializable {
     private LocalDateTime applicationDate = LocalDateTime.now();
 
     @Min(value = 0)
-    @DecimalMin(inclusive = false , message = "darf nicht negativ oder leer (0) sein", value = "0")
+    @DecimalMin(inclusive = false, message = "darf nicht negativ oder leer (0) sein", value = "0")
     @NotNull
     private double monthlyIncome;
     @Min(value = 0)
     private double monthlyExpenditure;
     @Min(value = 0)
-    @DecimalMin(inclusive = false , message = "darf nicht negativ oder leer (0) sein", value = "0")
+    @DecimalMin(inclusive = false, message = "darf nicht negativ oder leer (0) sein", value = "0")
     private double creditSum;
 
     private long version;
